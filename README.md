@@ -58,8 +58,6 @@ This project implements multiple approaches to classify CIFAR-10 images (10 clas
 - End-to-end pipeline from raw images to trained models
 
 
-MIT License
-
 ---
 
 ⭐ **Star this repo if you found it helpful!** ⭐
