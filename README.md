@@ -28,20 +28,6 @@ This project implements multiple approaches to classify CIFAR-10 images (10 clas
 - **Model Persistence:** Saved models with joblib/HDF5
 - **Comprehensive Evaluation:** Classification reports, confusion matrices, accuracy comparisons
 
-## 🚀 Usage
-
-```bash
-# Install dependencies
-pip install tensorflow numpy matplotlib opencv-python scikit-learn joblib
-
-# Run the complete pipeline
-python main.py
-
-# Load saved models
-from model_utils import load_model_components, load_cnn_model
-model, scaler, pca, config = load_model_components('saved_models')
-cnn_model, cnn_config, history = load_cnn_model('saved_cnn_model')
-```
 
 ## 📁 Project Structure
 
@@ -71,7 +57,6 @@ cnn_model, cnn_config, history = load_cnn_model('saved_cnn_model')
 - Systematic model comparison and hyperparameter tuning
 - End-to-end pipeline from raw images to trained models
 
-## 📄 License
 
 MIT License
 
